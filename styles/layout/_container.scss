@@ -1,0 +1,7 @@
+.container {
+  position: relative;
+  width: min(100%, 80rem);
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  gap: min(5vw, 1rem);
+}

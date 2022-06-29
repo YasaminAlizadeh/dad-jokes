@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+*,
+*::before,
+*:after {
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Comic Neue", cursive, "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+body {
+  font-size: clamp(0.8rem, 5vw, 1.75rem);
+}
+
+button,
+input {
+  font: inherit;
+}

@@ -1,0 +1,10 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  width: min(100%, 175rem);
+  margin: auto;
+  padding: min(5vw, 2rem);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+}
